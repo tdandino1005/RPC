@@ -8,8 +8,8 @@ buttons.forEach(function (button) {
     "click",
 
     // Callback function
-    function () {
-      console.log("Button clicked!");
+    function (mickey) {
+      console.log(event.target.innerText);
     }
   );
 });
